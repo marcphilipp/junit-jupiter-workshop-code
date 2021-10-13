@@ -70,6 +70,14 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
+                <configuration>
+                    <includes>
+                        <include>**/*_Test*.java</include>
+                        <include>**/*Test.java</include>
+                        <include>**/*Tests.java</include>
+                    </includes>
+                    <runOrder>alphabetical</runOrder>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -13,7 +13,7 @@ import java.util.List;
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
-public class Exercise19_TempDir {
+public class Exercise19_TempDirTests {
 
     private Path tempDir;
 
