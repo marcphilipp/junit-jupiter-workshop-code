@@ -76,7 +76,6 @@
                         <include>**/*Test.java</include>
                         <include>**/*Tests.java</include>
                     </includes>
-                    <runOrder>alphabetical</runOrder>
                 </configuration>
             </plugin>
         </plugins>
