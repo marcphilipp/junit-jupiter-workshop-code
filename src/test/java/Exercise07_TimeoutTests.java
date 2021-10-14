@@ -35,7 +35,7 @@ public class Exercise07_TimeoutTests {
             System.out.printf("[%s] Sleeping for %s on thread %s%n", testInfo.getDisplayName(), duration, Thread.currentThread());
             Thread.sleep(duration.toMillis());
         } catch (InterruptedException e) {
-            System.out.printf("[%s] Sleeping interrupted on thread%s%n", testInfo.getDisplayName(), Thread.currentThread());
+            System.out.printf("[%s] Sleeping interrupted on thread %s%n", testInfo.getDisplayName(), Thread.currentThread());
             throw new RuntimeException(e);
         }
     }
