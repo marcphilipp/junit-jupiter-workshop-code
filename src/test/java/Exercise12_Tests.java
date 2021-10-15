@@ -1,9 +1,8 @@
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
-@Disabled // TODO remove me
+//@ExtendWith(NotTodayExtension.class)
 class Exercise12_Tests {
 
     @NotToday

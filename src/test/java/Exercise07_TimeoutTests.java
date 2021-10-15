@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.Timeout;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.time.Duration;
 
@@ -9,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 
 @Disabled // TODO remove me
+@ExtendWith(ThreadDumpWriter.class)
 public class Exercise07_TimeoutTests {
 
     public static final int TIMEOUT_SECONDS = 1;
